@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>  Loader  </title>
+        <style>
+            .loader{
+                width : 150px ; 
+                height: 150px ;
+                border: gray 20px solid ;
+                border-radius: 50%;
+                border-top : red 20px solid ; 
+                animation-name: sample   ;
+                animation-duration : 1.5s  ;
+                animation-timing-function: linear ;
+                animation-iteration-count: infinite  ;
+            }
+            @keyframes  sample{
+                from  {     transform : rotate(0deg) ;       }
+                to {     transform : rotate(360deg) ;     }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="loader">   </div>
+    </body>
+</html>
+

@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>   DOM Manipulation      </title>
+    <style>
+        .sample{
+            font-size : 30px ; 
+            text-align : center ; 
+            background-color : lightgray ; 
+            color : purple ; 
+            font-family : cursive ; 
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="fun()">  CLICK ME !  </button>
+
+    <div id="container">
+        <h1 id="head">  My webpage </h1>
+        <p id="para">   
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus quia eligendi sit tempora, dignissimos vero quam similique voluptatum voluptates. Dicta reprehenderit id odio aliquid nobis praesentium laudantium suscipit culpa, dolorum explicabo quaerat facere fuga eum repellendus velit voluptates, eveniet accusamus unde eius, modi eos dolor maxime iure accusantium. Dolorem qui harum quam praesentium error illum recusandae ducimus. Distinctio aliquid tempore nostrum voluptas placeat quidem itaque? Labore eveniet perspiciatis doloribus esse quod. Cumque, eum quibusdam, dolorum voluptatibus hic praesentium magni iure temporibus doloremque voluptatem asperiores nisi molestias corrupti dignissimos quaerat nulla, rerum error quia. Molestiae modi mollitia doloremque, dolores quidem consectetur.
+        </p>
+        <img src="bg-img2.jpg" id="image">
+    </div>
+
+    <script>
+
+        function  fun()
+        {
+            document.getElementById("head").innerHTML = "Hello ... heading is changed now !! ..."  ;    
+            // document.getElementById("para").innerHTML = "Hello ... paragraph is changed now !! ..."  ;    
+
+            // document.getElementById("head").style.color = "red" ;   
+            // document.getElementById("head").style.backgroundColor = "lightgray"  ; 
+            // document.getElementById("head").style.textAlign = "center"  ; 
+        
+            // document.getElementById("head").classList.add("sample") ;
+            document.getElementById("head").classList.toggle("sample") ;
+
+
+
+            document.getElementById("para").style.fontSize = "22px" ; 
+
+
+            //how to change the attribute of any element 
+            document.getElementById("image").src  = "download.jpg"  ;      
+
+
+        }  
+
+    </script>
+
+</body>
+</html>

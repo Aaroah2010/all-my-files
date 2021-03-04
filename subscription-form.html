@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title> Register </title>
+
+        <style>
+            body{
+                text-align : center ;  
+            }
+            table{
+                margin : auto ; 
+                padding : 20px ; 
+            }
+            td{
+                padding : 20px ; 
+            }
+            label{
+                font-size : 22px; 
+                font-family : cursive ; 
+                color : blue ; 
+            }
+            input{
+                padding : 13px ; 
+            }
+            
+            /* attribute selector  */
+            input[type=text],input[type=password],input[type=email],input[type=date]{
+                width : 350px ;
+                font-size : 18px ;
+                font-family: arial ;
+                background-color : lightgray;
+                border-radius : 20px ; 
+                outline : none ;    
+            }
+            .c1:focus{
+                background-color : black ; 
+                padding : 15px ; 
+                color : white ; 
+            }
+            input[type=submit]{
+                margin : 20px;
+                padding : 10px 30px;
+                background-color : black ;
+                border : black 3px solid; 
+                border-radius : 30px ; 
+                font-size : 20px;
+                font-family: cursive;
+                color: white;
+            }
+            input[type=submit]:hover{
+                background-color : rgb(31, 30, 30);
+                padding : 15px 35px ; 
+            }
+            fieldset{
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+
+        <form  action="story_book.html">
+           <fieldset>
+               <legend> <h1> Register </h1></legend>
+            <table>
+                <tr>
+                    <td> <label for="fname">First Name</label> </td>
+                    <td> <input type="text"  id="fname"   class="c1"></td>
+                </tr>
+
+                <tr>
+                    <td>  <label for="lname">Last Name</label>  </td>
+                    <td> <input type="text"   id="lname"  class="c1"></td>
+                </tr>
+
+                <tr>
+                    <td> <label> Gender </label></td>
+                    <td>
+                       <label>Male  <input type="radio"> </label>
+                       <label>Female  <input type="radio"> </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="pass">Password</label> </td>
+                    <td><input type="password"  id="pass"   class="c1"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="cpas">Confirm Password </label> </td>
+                    <td><input type="password"  id="cpass" class="c1"></td>
+                </tr>
+
+                <tr>
+                    <td>  <label for="email"> Email  </label></td>
+                    <td> <input type="email"    id="email"  class="c1"> </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="contact"> Contact </label></td>
+                    <td><input type="text"  id="contact"    class="c1"> </td>
+                </tr>
+
+                <tr>
+                    <td><label for="DOB">Date of Birth </label></td>
+                    <td><input type="date"  id="DOB"    class="c1"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+            <input type="submit">
+        </form>
+
+    </body>
+</html>

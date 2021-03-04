@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title> Flex Box </title>
+        <style>
+            .container{
+                border : black 3px solid ; 
+                padding : 5px ; 
+              
+
+                display : flex ;
+              
+/* flex-direction property is used to change the direction of inner boxes ( flex items )     */
+                /* flex-direction: row;
+                flex-direction: row-reverse;
+                flex-direction: column;
+                flex-direction: column-reverse; */
+
+             /* justify-content property is used to align the flex items horizontally  */
+                /* justify-content: center ; 
+                justify-content: space-between ; 
+                justify-content: space-around ; 
+                justify-content: space-evenly;
+                justify-content: flex-start ;
+                justify-content: flex-end; */
+
+                justify-content: space-evenly;
+
+         /* align-items property is used to align the flex-items vertically */
+                align-items: center ;
+                /* align-items: flex-start;
+                align-items: flex-end ; */
+
+                flex-wrap : wrap ; 
+
+            }
+            .items{
+                border : red 2px solid ; 
+                width : 250px ; 
+                height : 400px ; 
+              
+            }
+        </style>
+    </head>
+    <body>
+        <h1>FlexBox = Flexible + Box </h1>
+
+        <div class="container">
+            <div class="items"> Box 1  
+
+            </div>
+
+            <div class="items"> Box 1  
+
+            </div><div class="items"> Box 2 
+
+            </div><div class="items"> Box 3  
+
+            </div><div class="items"> Box 4  
+
+            </div>
+        </div>
+
+    </body>
+</html>

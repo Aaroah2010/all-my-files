@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>  Objects in JavaScript  </title>
+    <style>
+        #head{
+
+        }
+    </style>
+</head>
+<body>
+    <h1 id="head">  Objects in JavaScript   </h1>
+
+    <script>
+
+        document.getElementById("head").innerHTML = "Hello " ; 
+
+        // var brand = "BMW" ; 
+        // var model = "Model-t" ; 
+        // var price = 25000 ; 
+
+
+        // var brand2 = "AUDI" ; 
+        // var model2 = "Model-S" ; 
+        // var price2 = 30000 ; 
+
+        //object is a composite data type
+        // object is a combination of multiple values and they are used to represent real world entitites .
+
+        var car1 = { brand : "BMW" ,
+                     model : "Model-T" , 
+                     price : 25000 ,                    //properties
+                     origin_country : "France" ,    
+                     auto_gear : function() { document.write("This car has an auto gear") ;    }        // methods  
+                   } ; 
+
+        var car2 = { brand : "AUDI" , model : "Model-S", price : 30000    } ; 
+
+        var person = { name : "Keshav Goel" , age : 22 , height : "..."   } ;
+
+        // accessing the values/properties of an object 
+        document.write( car2.model ) ; 
+
+        //accessing the function/methods of an object 
+        car1.auto_gear() ; 
+
+
+        document.write() ; 
+        //document is an object  
+        // write() is a method of document 
+
+
+    </script>
+
+</body>
+</html>

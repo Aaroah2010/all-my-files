@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>  Image Mapping   </title>
+</head>
+<body>
+    
+    <h1>  Image - Mapping </h1>
+    <img    src="image-map.jpg"   usemap="#mymap" >  
+
+    <map  name="mymap"  id="mymap" >
+
+        <area  shape="rect"   coords="86,19,190,148"  href="https://www.google.com/"  >  
+        <area  shape="circle" coords="43,45,21"       href="food.html"   target="_blank"    onclick="f1()"          >
+        <area shape="poly" coords="19,63,13,86,13,145,34,147,57,147,54,135,56,121,57,30"  href="story_book.html"  >
+        
+    </map>
+    <script>
+        function  f1()
+        {
+            alert("You have click on plant..Careful !") ;
+        }
+    </script>
+
+</body>
+</html>

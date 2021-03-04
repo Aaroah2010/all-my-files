@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title> Layout </title>
+        <style>
+            *{
+                margin : 0px; 
+                padding : 0px ; 
+            }
+            .navbar{
+                height : 60px ; 
+                border : 3px solid black ;
+            }
+            .header{
+                height : 500px ; 
+                border : red 3px solid ; 
+            }
+            .content1 {
+                height : 350px ; 
+                border : black 4px solid ; 
+                display : flex ; 
+            }
+            .content1 .left{
+                width : 30% ; 
+                height:  100% ;
+                border : green 3px solid ; 
+            }
+            .content1 .right{
+                width: 70% ;
+                height : 100% ; 
+                border : green 3px solid ; 
+            }
+
+            .content2{
+                height : 350px ; 
+                border : black 4px solid ; 
+                display : flex ; 
+            }
+            .content2 .left{
+                width : 70% ; 
+                height:  100% ;
+                border : red 3px solid ; 
+            }
+            .content2 .right{
+                width: 30% ;
+                height : 100% ; 
+                border : red 3px solid ; 
+            }
+            .footer{
+                height : 200px ; 
+                border : blue 3px solid ; 
+            }
+            .footer .icons{
+                height : 70% ;
+                border : green 4px solid ; 
+            }
+            .footer .text{
+                height : 30% ;
+                border : red 4px solid ; 
+                display : flex ; 
+            }   
+            .footer .text .items{
+                width : 33% ; 
+                height : 100% ; 
+                border : gray 4px solid ; 
+            }
+        </style>
+    </head>
+    <body>
+       <div class="navbar">
+       </div>
+
+        <div class="header">
+        </div>
+
+        <div class="content1">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+        
+        <div class="content2">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+
+        <br>
+
+        <div class="footer">
+           <div class="icons"></div>
+            <div class="text">
+                <div class="items">  Faqs    </div>
+                <div class="items"> &copy;   </div>
+                <div class="items"> T&c      </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

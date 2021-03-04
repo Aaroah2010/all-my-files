@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title> Form in HTML </title>
+    </head>
+    <body>
+        
+        <form   action="story_book.html"  method="POST" >  
+
+        <fieldset>
+            <legend> Your Credentials :  </legend>
+            <label> UserName : <input  type="text"   name="uname"   required  maxlength="10"  minlength="5">     </label>        
+            <br>
+            
+            <label> Password : <input type="password"  name="pass"  required   placeholder="Enter Password">  </label>
+
+
+            <br>
+            <label  for="email">  E-Mail : </label>
+            <input type="email"    name="email"  placeholder="Enter E-mail"  id="email">    
+        </fieldset>
+
+            <br>
+
+            Course :   
+            <label>        <input type="checkbox"   name="course" value="HTML"  checked > HTML        </label>
+            <label>        <input type="checkbox"  name="course"  value="CSS" > CSS    </label>
+            <label>        <input type="checkbox"  name="course"  value="JS"  > Javascript   </label>
+
+            <br>
+
+            Gender :        
+            
+                <label>     <input type="radio"   name="g"  value="M"   checked> Male         </label>
+                <label>     <input type="radio"   name="g"  value="F"> Female       </label>
+
+            <br>
+
+            Country: <select    name="country">
+                        <option value=""> Select </option>
+                        <option value="IND"> India </option>
+                        <option value="America"> US </option>
+                        <option value="United Arab Emirates"> UAE</option>
+                        <option value="Malaysia"> Malaysia </option>
+                    </select>
+            
+            <br>
+                <label> Date of Birth :  <input type="date"  name="DOB"  min="2020-01-20"  max="2020-12-30">  </label>
+            <br>
+                <label>Time   <input type="time"    name="time">    </label>
+
+            <br>
+
+            <label>  Upload Your Doc :   <input type="file"  name="file"  accept="video/*" > </label>
+
+            <br>
+            <input type="submit"    value="Register"> 
+            <input type="reset" >      
+            <input type="button"    value="Normal Button">
+
+            <!-- <button type="submit"> Click Me </button> -->
+            
+
+        </form>
+        
+    </body>
+</html>

@@ -1,0 +1,1 @@
+document.write( "This sentnece is coming from external js file. ") ; 

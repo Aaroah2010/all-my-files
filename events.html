@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title> EVENTS IN JAVASCRIPT </title>
+    </head>
+    <body>
+            
+        <h1     onmouseout="fun()"> Events in JavaScript       </h1>
+        <button  onclick="fun()"    >  Click here   </button>
+        <button  onmouseover="fun()"  > Bring Your cursor over me   </button>       <br><br>
+
+        <form   onsubmit="msg()">
+            <input  type="text"  placeholder="Enter your ID " >              <br>
+            <input type="password"  placeholder="Enter your password">      <br>
+            <input type="submit">   
+        </form>
+
+        <script>
+
+            function fun(){
+                alert(" You have created an alert box ")  ;     
+            }
+            function msg(){
+                alert("Your form is submitted successfully. ") ; 
+            }
+            // fun() ; 
+        </script>
+    </body>
+</html>
